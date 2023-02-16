@@ -5,7 +5,8 @@ const int MAXN = 1e3+7;
 vector<int> v(MAXN); 
 int n{}, m{};
 
-int query(int val){
+//log(N)
+int binarySearch(int val){
     int l = 0, r = n;
 
     while (r-l > 1){
@@ -31,7 +32,7 @@ int main(){
         int val; 
         cin >> val;
 
-        cout << query(val) << '\n'; 
+        cout << binarySearch(val) << '\n'; 
     }
     
     return 0; 
