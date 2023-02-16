@@ -5,7 +5,7 @@ const int MAXN = 1e3+7;
 vector<int> v(MAXN); 
 int n{}, m{};
 
-//o(logN)
+//O(logN)
 int binarySearch(int val){
     int l = 0, r = n;
 
