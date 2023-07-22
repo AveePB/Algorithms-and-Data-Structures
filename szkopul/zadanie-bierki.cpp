@@ -1,7 +1,6 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-
 using namespace std;
 
 int main(){
@@ -35,12 +34,9 @@ int main(){
             head++;
             continue;
         }
-
         tail++;
     }
 
     cout << max_range_size << endl;
-
-
     return 0;
 }
