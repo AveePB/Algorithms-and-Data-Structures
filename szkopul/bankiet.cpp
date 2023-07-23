@@ -18,7 +18,6 @@ int main() {
 
     for (int i=1; i<=n_guests; i++) {
         int pot_idx=i;
-
         if (guest_nums[pot_idx] != 0) {
             while (true) {
                 if (guest_nums[pot_idx] == i) {
@@ -26,9 +25,10 @@ int main() {
                     ans++;
                     break;
                 }
-            int new_idx = guest_nums[pot_idx];
-            guest_nums[pot_idx] = 0;
-            pot_idx = new_idx;
+                
+                int new_idx = guest_nums[pot_idx];
+                guest_nums[pot_idx] = 0;
+                pot_idx = new_idx;
             }
         }
     }
