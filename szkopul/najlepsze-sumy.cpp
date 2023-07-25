@@ -7,7 +7,7 @@ int bestSum(vector<int> vec) {
     if (vec.size() == 0) return 0;
     int ans = vec[0], sum = vec[0]; 
 
-    for (int i = 1; i<vec.size(); i++) {
+    for (int i=1; i<vec.size(); i++) {
         if (sum < 0) 
             sum = vec[i];
         else 
