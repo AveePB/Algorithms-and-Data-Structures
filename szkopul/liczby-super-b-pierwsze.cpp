@@ -30,7 +30,6 @@ bool is_binary_sum_prime(int n){
     return is_sum_prime(n_binary.to_string());
 }
 
-
 int main(){
     ios_base::sync_with_stdio(0); cout.tie(0); cin.tie(0);
     int n_super_b = 0, a = 0, b = 0;
