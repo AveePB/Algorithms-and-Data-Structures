@@ -7,8 +7,7 @@ using namespace std;
 //true -> black
 
 vector<vector<int>> conns(100005, vector<int>(0));
-bool colors[100005];
-bool visited[100005];
+bool colors[100005], visited[100005];
 
 void dfs(bool previous_color, int point_id) {
     visited[point_id] = true;
