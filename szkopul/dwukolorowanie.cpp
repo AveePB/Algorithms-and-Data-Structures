@@ -19,7 +19,7 @@ void dfs(bool previous_color, int point_id) {
         }
         else {
             if (colors[n] == colors[point_id]) {
-                cout << "NIE" << endl;
+                cout << "NIE";
                 exit(0);
             }
         }
