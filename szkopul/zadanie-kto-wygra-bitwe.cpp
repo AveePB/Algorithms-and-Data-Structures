@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std; 
 
 int n{}, m{}, q{}, curr_q{}, c{}; 
