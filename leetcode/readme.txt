@@ -1,0 +1,1 @@
+These are ready to paste solutions for leetcode problems.
