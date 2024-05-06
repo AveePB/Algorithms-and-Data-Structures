@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+ 
 const int MAXN = 1e5+7;
 vector<vector<int>> graph(MAXN);
 int n{}, m{}, a{}, b{};
