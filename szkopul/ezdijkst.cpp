@@ -6,7 +6,7 @@ struct pt{
     int num{};
     long long weight{}; 
 }; 
-
+ 
 const int MAXN = 1e4+7;
 
 vector<long long> dist(MAXN, INT_MAX); 
