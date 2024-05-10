@@ -8,7 +8,7 @@ public:
         if(s[0] == '0')
             return 0;
         
-        for(int i=2; i<=s.size(); i++){
+        for(int i=2; i<=s.size(); i++){ 
             int one_digit = stoi(s.substr(i-1, 1));
             int two_digits = stoi(s.substr(i-2, 2));
             
